@@ -208,3 +208,12 @@ function checkForWin() {
 
 makeBoard();
 makeHtmlBoard();
+
+let resetButton = document.querySelector('button');
+function resetBoard() {
+  document.location.reload(true);
+}
+
+resetButton.addEventListener('click', function () {
+  resetBoard();
+});

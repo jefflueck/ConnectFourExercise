@@ -2,10 +2,37 @@
 
 h1 {
   text-align: center;
-  color: orangered;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 10px 0;
+  color: whitesmoke;
+  font-family: sans-serif;
+  margin-top: 55px;
   padding: 5px 0;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+span {
+  font-size: 2em;
+  color: orangered;
+  padding-left: 20px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 20px;
+  background: none;
+  border: none;
+}
+
+button:hover {
+  width: 100px;
+  font-size: 25px;
+  background-color: lightsteelblue;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 #game {
